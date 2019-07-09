@@ -1,5 +1,5 @@
-// additional responsive embed with 3:2 ratio and others
-// on top of bootstrap 3 > _responsive-embed.scss
+/* additional responsive embed with 3:2 ratio and others */
+/* on top of bootstrap 3 > _responsive-embed.scss */
 .embed-responsive-3by2 {
   padding-bottom: 66.66%;
 }
