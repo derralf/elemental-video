@@ -1,0 +1,18 @@
+---
+Name: elementalvideo
+---
+
+## add default styles
+#DNADesign\Elemental\Controllers\ElementController:
+#  default_styles:
+#    - derralf/elemental-video:client/dist/styles/frontend-default.css
+
+# basic/default config
+Derralf\Elements\Video\Element\ElementVideo:
+  styles:
+    '': "Standard"
+    VideoLeftFiftyFifty: "Video links, 50%"
+    VideoRightFiftyFifty: "Video rechts, 50%"
+    VideoRightThirtythree: "Video rechts, 33%"
+  styles_default_description: 'Standard: volle Breite, Text darüber'
+  readmore_link_class: 'btn btn-primary btn-readmore'

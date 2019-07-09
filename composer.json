@@ -1,0 +1,37 @@
+{
+    "name": "derralf/elemental-video",
+    "description": "A simple content block with a video and optional HTML-Text for the silverstripe-elemental module",
+    "type": "silverstripe-vendormodule",
+    "keywords": [
+        "silverstripe",
+        "elemental",
+        "content blocks"
+    ],
+    "license": "BSD-3-Clause",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "dnadesign/silverstripe-elemental": "^4@dev",
+        "silverstripe/vendor-plugin": "^1.0",
+        "sheadawson/silverstripe-linkable": "^2.0@dev",
+        "jonom/focuspoint": "^3.0",
+        "silverstripe/display-logic": "^2.0"
+    },
+    "suggest": {
+        "derralf/elemental-styling": "Adds some styling options"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "2.x-dev"
+        },
+        "expose": [
+            "client/dist"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "Derralf\\Elements\\Video\\": "src/"
+        }
+    }
+
+}
